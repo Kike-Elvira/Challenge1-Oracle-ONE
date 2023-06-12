@@ -112,22 +112,4 @@ main{
     vertical-align: middle; /* Espacio vertical del vector */
 }
 
-/* Media Query celular*/
-@media (max-width: 390px) {
-    main {
-        margin-left: 0; /* Eliminar margen izquierdo en dispositivos móviles */
-        flex-direction: column; /* Cambiar a disposición vertical */
-    }
-    
-    .text-area {
-        order: 1; /* Cambiar el orden del primer textarea */
-    }
-    
-    .mensaje {
-        order: 2; /* Cambiar el orden del textarea "mensaje" */
-        margin-top: 20px; /* Ajustar margen superior */
-        width: 100%; /* Ocupar todo el ancho disponible */
-        height: 700px; /* Ajustar la altura según tus necesidades */
-    }
-}
 
