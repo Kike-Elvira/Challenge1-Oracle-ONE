@@ -147,12 +147,12 @@ main{
    .mensaje{
     position: relative;
     display: flex;
-    width: auto;
-    height: auto;
     margin-left: 0;
     left: 0px;
     top: 40px;
     background-image: none;
+    width: 80%;
+    height: 350px;
    }
 
    .botones{
